@@ -11,10 +11,22 @@
     "@/": "./src/",
     "@astrojs/react": "npm:@astrojs/react@^3.6.2",
     "@astrojs/tailwind": "npm:@astrojs/tailwind@^5.1.2",
+    "@radix-ui/react-label": "npm:@radix-ui/react-label@^2.1.0",
+    "@radix-ui/react-separator": "npm:@radix-ui/react-separator@^1.1.0",
+    "@radix-ui/react-slot": "npm:@radix-ui/react-slot@^1.1.0",
+    "@radix-ui/react-toggle": "npm:@radix-ui/react-toggle@^1.1.0",
+    "@tiptap/react": "npm:@tiptap/react@^2.9.1",
+    "@tiptap/starter-kit": "npm:@tiptap/starter-kit@^2.9.1",
     "@types/react": "npm:@types/react@^18.3.12",
     "@types/react-dom": "npm:@types/react-dom@^18.3.1",
+    "astro": "npm:astro@^4.16.11",
+    "class-variance-authority": "npm:class-variance-authority@^0.7.0",
+    "clsx": "npm:clsx@^2.1.1",
+    "lucide-react": "npm:lucide-react@^0.456.0",
     "react": "npm:react@^18.3.1",
     "react-dom": "npm:react-dom@^18.3.1",
-    "tailwindcss": "npm:tailwindcss@^3.4.14"
+    "tailwind-merge": "npm:tailwind-merge@^2.5.4",
+    "tailwindcss": "npm:tailwindcss@^3.4.14",
+    "tailwindcss-animate": "npm:tailwindcss-animate@^1.0.7"
   }
 }
