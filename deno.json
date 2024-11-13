@@ -1,0 +1,20 @@
+{
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "tasks": {
+    "dev": "deno run --allow-env --allow-read --allow-scripts --allow-ffi --allow-sys --allow-write --allow-net --allow-run npm:astro dev"
+  },
+  "imports": {
+    "@/": "./src/",
+    "@astrojs/react": "npm:@astrojs/react@^3.6.2",
+    "@astrojs/tailwind": "npm:@astrojs/tailwind@^5.1.2",
+    "@types/react": "npm:@types/react@^18.3.12",
+    "@types/react-dom": "npm:@types/react-dom@^18.3.1",
+    "react": "npm:react@^18.3.1",
+    "react-dom": "npm:react-dom@^18.3.1",
+    "tailwindcss": "npm:tailwindcss@^3.4.14"
+  }
+}
